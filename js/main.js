@@ -1,22 +1,10 @@
-var letter = prompt('Enter a letter.');
+var letter = prompt('Enter a letter');
+var num = 1;
 
-var counter = function (name, times) {
-  var i;
-
-  for (i = 0; 1 < times; i++) {
-    document.write('<br>')
+do {
+  for (i = 0; i < num; i++) {
+    document.write(letter);
   }
-
   document.write('<br>');
-
-};
-
-counter (letter, 1);
-counter (letter, 2);
-counter (letter, 3);
-counter (letter, 4);
-counter (letter, 5);
-counter (letter, 6);
-counter (letter, 7);
-counter (letter, 8);
-counter (letter, 9);
+  num++;
+} while (num <= 10);
